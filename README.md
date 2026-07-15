@@ -29,27 +29,37 @@ Esse repositório é dedicado ao desenvolvimento do projeto de previsão de pre�
 * Bloco 04: Engenharia de Recursos (Feature Engineering) e Pré-processamento.
 * Bloco 05: Construção, Treinamento e Avaliação do Modelo de Machine Learning.
 
-## Como Rodar o Projeto
+### Como Rodar o Projeto
 
-Para reproduzir este projeto e rodar o notebook em sua máquina local, siga o passo a passo abaixo:
+Para reproduzir este projeto e rodar o notebook na sua máquina local, siga o passo a passo abaixo:
 
-### 1. Clonar o Repositório
-Abra o terminal em sua máquina e clone este repositório utilizando o Git:
-bash
+1. Clonar o Repositório
+
+Abra o terminal e clone este repositório utilizando o Git:
+
 git clone [https://github.com/JoaoAntoni07/projeto-trainee-2026.git](https://github.com/JoaoAntoni07/projeto-trainee-2026.git)
 cd projeto-trainee-2026
 
-### 2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
+
+2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
+
 No Linux/macOS:
+
 python3 -m venv .venv
 source .venv/bin/activate
 
+
 No Windows:
+
 python -m venv .venv
 .venv\Scripts\activate
 
-### 3. Instalar as Dependências
+
+3. Instalar as Dependências
+
 pip install pandas numpy scikit-learn matplotlib seaborn notebook
 
-### 4. Executar o Jupyter Notebook
+
+4. Executar o Jupyter Notebook
+
 jupyter notebook
