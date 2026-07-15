@@ -1,5 +1,5 @@
 # projeto-trainee
-Esse repositório é dedicado ao desenvolvimento do projeto de previsão de preços de imóveis (Ames Housing) para o processo de trainee da Cati Jr.
+Esse repositório é dedicado ao desenvolvimento do projeto de previsão de preços de imóveis (House Prices) para o processo de trainee da Cati Jr.
 
 ## Objetivo:
 * Repositório dedicado ao acompanhamento do desenvolvimento do modelo de Machine Learning, análises estatísticas e tratamento de dados para a entrega do projeto trainee.
