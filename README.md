@@ -43,14 +43,14 @@ cd projeto-trainee-2026
 
 * 2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
 
-No Linux/macOS:
+**No Linux/macOS**:
 
 python3 -m venv .venv 
 
 source .venv/bin/activate
 
 
-No Windows:
+**No Windows**:
 
 python -m venv .venv 
 
