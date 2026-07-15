@@ -20,10 +20,40 @@ Esse repositório é dedicado ao desenvolvimento do projeto de previsão de pre�
 * **train.csv**: Base de dados para treino do modelo.
 * **test.csv**: Base de dados para testes do modelo.
 * **data_description.txt**: Arquivo descritivo com o significado de todas as colunas do dataset.
+* **submission.csv**: Arquivo contendo o conteúdo final do projeto.
 
 ## Cronograma de Desenvolvimento:
-* Bloco 01: Análise Exploratória de Dados (EDA) e Visualização das Top 6 correlações.
+* Bloco 01: Análise Exploratória de Dados (EDA) e Visualização das correlações.
 * Bloco 02: Diagnóstico e Tratamento de Valores Ausentes (Missing Values).
 * Bloco 03: Diagnóstico e Tratamento de Outliers.
 * Bloco 04: Engenharia de Recursos (Feature Engineering) e Pré-processamento.
 * Bloco 05: Construção, Treinamento e Avaliação do Modelo de Machine Learning.
+
+## Como Rodar o Projeto
+
+Para reproduzir este projeto e rodar o notebook em sua máquina local, siga o passo a passo abaixo:
+
+### 1. Clonar o Repositório
+Abra o terminal em sua máquina e clone este repositório utilizando o Git:
+bash
+git clone [https://github.com/JoaoAntoni07/projeto-trainee-2026.git](https://github.com/JoaoAntoni07/projeto-trainee-2026.git)
+cd projeto-trainee-2026
+
+## 2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
+No Linux/macOS:
+Bash
+python3 -m venv .venv
+source .venv/bin/activate
+
+No Windows:
+DOS
+python -m venv .venv
+.venv\Scripts\activate
+
+## 3. Instalar as Dependências
+Bash
+pip install pandas numpy scikit-learn matplotlib seaborn notebook
+
+## 4. Executar o Jupyter Notebook
+Bash
+jupyter notebook
