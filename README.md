@@ -39,21 +39,17 @@ bash
 git clone [https://github.com/JoaoAntoni07/projeto-trainee-2026.git](https://github.com/JoaoAntoni07/projeto-trainee-2026.git)
 cd projeto-trainee-2026
 
-## 2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
+### 2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
 No Linux/macOS:
-Bash
 python3 -m venv .venv
 source .venv/bin/activate
 
 No Windows:
-DOS
 python -m venv .venv
 .venv\Scripts\activate
 
-## 3. Instalar as Dependências
-Bash
+### 3. Instalar as Dependências
 pip install pandas numpy scikit-learn matplotlib seaborn notebook
 
-## 4. Executar o Jupyter Notebook
-Bash
+### 4. Executar o Jupyter Notebook
 jupyter notebook
