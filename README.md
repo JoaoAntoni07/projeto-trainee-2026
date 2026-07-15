@@ -33,7 +33,7 @@ Esse repositório é dedicado ao desenvolvimento do projeto de previsão de pre�
 
 Para reproduzir este projeto e rodar o notebook na sua máquina local, siga o passo a passo abaixo:
 
-1. Clonar o Repositório
+* 1. Clonar o Repositório
 
 Abra o terminal e clone este repositório utilizando o Git:
 
@@ -41,25 +41,27 @@ git clone [https://github.com/JoaoAntoni07/projeto-trainee-2026.git](https://git
 cd projeto-trainee-2026
 
 
-2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
+* 2. Criar e Ativar um Ambiente Virtual (Opcional, mas Recomendado)
 
 No Linux/macOS:
 
-python3 -m venv .venv
+python3 -m venv .venv 
+
 source .venv/bin/activate
 
 
 No Windows:
 
-python -m venv .venv
+python -m venv .venv 
+
 .venv\Scripts\activate
 
 
-3. Instalar as Dependências
+* 3. Instalar as Dependências
 
 pip install pandas numpy scikit-learn matplotlib seaborn notebook
 
 
-4. Executar o Jupyter Notebook
+* 4. Executar o Jupyter Notebook
 
 jupyter notebook
