@@ -27,7 +27,7 @@ Esse repositório é dedicado ao desenvolvimento do projeto de previsão de pre�
 * Bloco 02: Diagnóstico e Tratamento de Valores Ausentes (Missing Values).
 * Bloco 03: Diagnóstico e Tratamento de Outliers.
 * Bloco 04: Engenharia de Recursos (Feature Engineering) e Pré-processamento.
-* Bloco 05: Construção, Treinamento e Avaliação do Modelo de Machine Learning.
+* Bloco 05: Construção, Treinamento e Avaliação dos Modelos de Machine Learning.
 
 ### Como Rodar o Projeto
 
