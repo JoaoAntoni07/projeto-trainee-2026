@@ -65,3 +65,9 @@ pip install pandas numpy scikit-learn matplotlib seaborn notebook
 * 4. Executar o Jupyter Notebook
 
 jupyter notebook
+
+
+### Como Rodar o app
+* 1. Crie o arquivo: No seu VS Code, crie um novo arquivo .py na mesma pasta onde estão o notebook e o train.csv. Cole o código de main.py nele.
+* 2. Instale o Streamlit com o comando: pip install streamlit
+* 3. Rode o comando: streamlit run "seuarquivo".py (substitua "seuarquivo" pelo nome que você salvou o .py)
